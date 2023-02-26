@@ -38,3 +38,18 @@ part2.style.flexDirection = "column";
 part2.style.justifyContent = "center";
 part2.style.alignItems = "center";
 part2.style.gap = "30px";
+
+let num1 = Math.floor(Math.random() * 30);
+let num2 = Math.floor(Math.random() * 30);
+
+let inbox1 = document.createElement("p");
+part2.appendChild(inbox1);
+inbox1.innerHTML = `რას უდრის ${num1} + ${num2}?`;
+inbox1.style.color = "blue";
+inbox1.style.fontSize = "40px";
+
+let inbox2 = document.createElement("p");
+part2.appendChild(inbox2);
+inbox2.innerHTML = "პასუხი";
+inbox2.style.color = "blue";
+inbox2.style.fontSize = "25px";
