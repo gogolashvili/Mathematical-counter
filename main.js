@@ -7,3 +7,9 @@ container.style.overflow = "auto";
 container.style.display = "flex";
 container.style.justifyContent = "center";
 container.style.alignItems = "center";
+
+let box = document.createElement("div");
+container.appendChild(box);
+box.style.width = "800px";
+box.style.height = "500px";
+box.style.overflow = "auto";
