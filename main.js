@@ -61,3 +61,16 @@ input.style.height = " 45px";
 input.style.fontSize = "25px";
 input.style.borderRadius = "10px";
 input.style.border = "none";
+
+let button = document.createElement("button");
+part2.appendChild(button);
+button.innerText = "გაშვება";
+button.style.width = "150px";
+button.style.height = " 50px";
+button.style.fontSize = "30px";
+button.style.borderRadius = "10px";
+button.style.border = "none";
+button.style.backgroundColor = "rgb(45, 149, 351)";
+button.style.color = "white";
+part2.style.color = "rgb(45, 149, 351)";
+part2.style.fontSize = "40px";
