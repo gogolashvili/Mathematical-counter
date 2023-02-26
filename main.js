@@ -74,3 +74,25 @@ button.style.backgroundColor = "rgb(45, 149, 351)";
 button.style.color = "white";
 part2.style.color = "rgb(45, 149, 351)";
 part2.style.fontSize = "40px";
+
+time = 10;
+
+let finish = setInterval(() => {
+  button.addEventListener("click", function () {
+    clearInterval(finish);
+    if (input.value == num1 + num2) {
+      part2.innerHTML = "";
+      part2.innerHTML = "პასუხი სწორია!";
+    } else {
+      part2.innerHTML = "";
+      part2.innerHTML = "პასუხი არასწორია!";
+    }
+  });
+  satauri.innerHTML = `დარჩენილი დრო: ${time} წმ`;
+  if (time === 0) {
+    part2.innerHTML = "";
+    part2.innerHTML = "დრო ამოიწურა";
+    clearInterval(finish);
+  }
+  time--;
+}, 1000);
