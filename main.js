@@ -13,3 +13,13 @@ container.appendChild(box);
 box.style.width = "800px";
 box.style.height = "500px";
 box.style.overflow = "auto";
+
+let time = 10;
+
+let satauri = document.createElement("h1");
+box.appendChild(satauri);
+satauri.innerHTML = `დარჩენილი დრო: ${time} წმ`;
+satauri.style.color = "white";
+satauri.style.fontSize = "50px";
+satauri.style.marginTop = "30px";
+satauri.style.marginLeft = "20%";
