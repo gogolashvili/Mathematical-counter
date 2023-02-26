@@ -53,3 +53,11 @@ part2.appendChild(inbox2);
 inbox2.innerHTML = "პასუხი";
 inbox2.style.color = "blue";
 inbox2.style.fontSize = "25px";
+
+let input = document.createElement("input");
+part2.appendChild(input);
+input.style.width = "100px";
+input.style.height = " 45px";
+input.style.fontSize = "25px";
+input.style.borderRadius = "10px";
+input.style.border = "none";
